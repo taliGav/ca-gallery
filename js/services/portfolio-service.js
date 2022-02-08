@@ -5,8 +5,9 @@ var gProjs = [];
 
 function createProjects() {
     gProjs = [
-        _createProject('ballgame','games','url',["JS","CSS", "HTML","FULL STACK"]),
+        _createProject('ball-board','games','https://taligav.github.io/ball-board/',["JS","CSS", "HTML","FULL STACK"]),
         _createProject('minesweeper','games','https://taligav.github.io/minesweeper/',["JS","CSS","HTML","FULL STACK"]),
+        _createProject('book-shop','inventory management','https://taligav.github.io/book-shop/',["JS","CSS","HTML","FULL STACK"]),
     ];
 }
 
